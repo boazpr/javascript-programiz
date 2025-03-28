@@ -13,13 +13,13 @@ console.log(result, "-", typeof(result));
 let a;
 
 // convert string to number
-result = Number("5");
+a = Number("5");
 console.log(a, "-", typeof(a));
 
 // convert boolean to string
-result = String(true);
+a = String(true);
 console.log(a, "-", typeof(a));
 
 // convert number to boolean
-result = Boolean(0);
+a = Boolean(0);
 console.log(result, "-", typeof(a));
